@@ -1,0 +1,25 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+  display: block;
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+label:hover {
+  background-color: #ddd;
+}
+ 
+p {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+input:checked + label + p {
+  display: block;
+}
