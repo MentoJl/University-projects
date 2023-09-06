@@ -36,6 +36,18 @@ input:invalid {
     border: 2px solid red;
 }
 
+input.email:valid {
+    border: 2px solid lightgreen;
+}
+
+input.password:valid {
+    border: 2px solid lightblue;
+}
+
+input.name:valid {
+    border: 2px solid lightsalmon;
+}
+
 .container {
     display: flex;
     justify-content: center;
