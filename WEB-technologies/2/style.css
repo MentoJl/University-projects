@@ -1,0 +1,12 @@
+input {
+    width: 100px;
+}
+
+div {
+    margin: 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+}

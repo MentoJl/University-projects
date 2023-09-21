@@ -1,0 +1,10 @@
+*{
+    margin-top: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+}

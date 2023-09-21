@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script defer src="./script.js"></script>
+    <div>
+        <label>Input first string: </label><input id="first">
+        <label>Input second string: </label><input id="second">
+        <button id="compare">Compare</button>
+        <label>Count of vowels letters in first string: <label id="vowel_counter_1">0</label></label>
+        <label>Count of vowels letters in second string: <label id="vowel_counter_2">0</label></label>
+        
+        <label for="inputString">Input string:</label>
+        <input type="text" id="inputString"><br>
+    
+        <label for="searchChar">Input symbol:</label>
+        <input type="text" id="searchChar"><br>
+    
+        <button onclick="findChar()">Find</button><br>
+
+        <div id="result"></div>
+    </div>
+</body>
+</html>
