@@ -1,6 +1,7 @@
 function addClassHide(event) {
-    let block = event.target.querySelector('div')
+    let block = event.target.nextElementSibling
     block.classList.toggle('hide')
+    block.classList.toggle('show')
     let label = event.target.querySelector('label')
     label.innerText = label.innerText === "+" ? label.innerText = "-" : label.innerText = "+"
 }
