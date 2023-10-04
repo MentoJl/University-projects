@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script defer src="./script.js"></script>
+    <table id="table", class="matrix"></table>
+    <div>
+        <input type="number" id="rows">
+        <input type="number" id="colls">
+        <button onclick="createTable()">Create</button>
+    </div>
+    <table class="form">
+        <tr>
+            <td>Login:</td>
+            <td><input type="text" id="login"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td>Repeat password:</td>
+            <td><input type="password" id="reppass"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><label><input type="radio" id="man">Man</label>
+                <label><input type="radio" id="woman">Woman</label></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td>
+                <select id="city">
+                    <option>Zhytomir</option>
+                    <option>Kyiv</option>
+                    <option>Lviv</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td>
+                <input type="checkbox">
+                <label>Football</label><br>
+                <input type="checkbox">
+                <label>Art</label><br>
+                <input type="checkbox">
+                <label>Programming</label><br>
+                <button onclick="cls()">Clean</button> <button>Send</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
