@@ -1,0 +1,11 @@
+div {
+    border: 2px lightskyblue solid;
+    min-width: 300px;
+    max-width: 300px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+input, textarea {
+    border: 2px lightskyblue solid;
+}
