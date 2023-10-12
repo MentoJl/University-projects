@@ -1,5 +1,11 @@
-let inputs = document.querySelectorAll("#id")
+let divs = document.querySelectorAll("div")
 
-inputs.forEach(() => {
-    
-})
+divs.forEach((div) => {
+    div.querySelectorAll("*").forEach((input) => {
+        input.addEventListener('focus', () => {
+            input.parentNode.classList.add("active")
+        })
+        input.addEventListener('blur', () => {
+            input.parentNode.classList.remove("active")
+        })
+})})

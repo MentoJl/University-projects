@@ -6,6 +6,10 @@ div {
     padding: 10px;
 }
 
-input, textarea {
+input, textarea, input:focus-visible, textarea:focus-visible {
     border: 2px lightskyblue solid;
+}
+
+.active {
+    background-color: rgb(166, 210, 224);
 }
