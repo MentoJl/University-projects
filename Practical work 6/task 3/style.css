@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    border-spacing: none;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.chosen {
+    border: 5px solid black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
