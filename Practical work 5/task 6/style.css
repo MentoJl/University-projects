@@ -1,5 +1,6 @@
 div {
     border: 2px lightskyblue solid;
+    border-radius: 7px;
     min-width: 300px;
     max-width: 300px;
     margin-bottom: 5px;
