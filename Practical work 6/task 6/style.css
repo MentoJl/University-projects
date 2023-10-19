@@ -1,0 +1,19 @@
+div {
+    position: absolute;
+    perspective: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    transition: transform 0.6s;
+}
+
+.rotate {
+    transform: rotateY(180deg);
+}
+
+#frontSide {
+    backface-visibility: hidden;
+}
