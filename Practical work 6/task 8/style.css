@@ -1,0 +1,8 @@
+div, label {
+    color: rgb(138, 37, 138);
+    cursor: pointer;
+}
+
+.selected {
+    background-color: lightgreen;
+}
