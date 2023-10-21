@@ -1,0 +1,7 @@
+.circle {
+    position: absolute;
+}
+
+.selected {
+    outline: 5px solid red;
+}
