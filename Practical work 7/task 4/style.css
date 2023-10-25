@@ -1,0 +1,8 @@
+.selected {
+    background-color: cadetblue;
+    color: bisque;
+}
+
+li {
+    cursor: pointer;
+}
