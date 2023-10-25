@@ -1,0 +1,8 @@
+span {
+    font-size: 100px;
+}
+
+.clock {
+    position: absolute;
+    right: 50px
+}
