@@ -1,0 +1,25 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.slide {
+    transition: 0.7s ease;
+}
+
+.container {
+    border-radius: 10px;
+    border: 10px solid gray;
+    width: 850px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    overflow: hidden;
+}
+
+body {
+    background-color: darkslateblue;
+}
