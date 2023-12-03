@@ -49,10 +49,11 @@ function answer(event) {
         let result_counter = 0
         tasks.forEach((task) => {
             if(task.result === true) {
+                
                 result_counter++
             }
         })
-        message.textContent = `Correct answers: ${result_counter}/${tasks.length}`
+        message.textContent = `Correct answers: ${result_counter+1}/${tasks.length}`
     }
 
 }

@@ -39,7 +39,6 @@ let directionArray = {
 
 document.querySelectorAll(".block").forEach((block) => {
     block.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
-    
     let directions = Object.keys(directionArray)
     let randomDirectionKey = directions[Math.floor(Math.random() * directions.length)]
     setInterval(() => {
