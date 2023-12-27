@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    margin: 15px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.2);
+}
+
+#jsonInput {
+    margin-bottom: 10px;
+}
+
+#errorMessage {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#fullImageContainer {
+    display: none;
+}
+
+#fullImage {
+    max-width: 30%;
+    max-height: 30%;
+}

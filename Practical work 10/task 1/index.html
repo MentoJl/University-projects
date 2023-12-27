@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="myForm">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть Ім'я">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Введіть пошту">
+
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="message" placeholder="Необов'язково"></textarea>
+
+        <label>Стать:</label>
+        <div class="gender-wrapper">
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Чоловіча</label>
+            </div>
+
+            <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жіноча</label>
+            </div>
+        </div>
+
+        <label for="subscribe">Підписатися:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+
+        <label for="country">Країна:</label>
+        <select id="country" name="country">
+            <option value="ukraine">Україна</option>
+            <option value="germany">Германія</option>
+            <option value="usa">США</option>
+        </select>
+
+        <button type="button" onclick="saveData()">Зберегти дані</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

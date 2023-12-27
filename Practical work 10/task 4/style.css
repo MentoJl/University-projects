@@ -1,0 +1,11 @@
+.shape-container {
+    display: flex;
+}
+
+.shape {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-block: 10px;
+    transition: background-color 0.5s;
+}

@@ -1,0 +1,46 @@
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    top: 50%;
+    left: 50%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 200px;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #000000;
+    padding: 2px;
+    color: black;
+}
+
+.slider-btn-prev {
+    left: 5px;
+}
+
+.slider-btn-next {
+    right: 5px;
+}

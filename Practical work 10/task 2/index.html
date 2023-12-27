@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <input type="text" id="jsonInput" placeholder="Введіть JSON масив файлів"
+        value='["1.jpg", "2.jpg", "3.jpg", "4.jpg"]'>
+    <button onclick="showImages()">Показати зображення</button>
+    <div id="errorMessage"></div>
+    <div id="imageContainer"></div>
+
+    <div id="fullImageContainer">
+        <img id="fullImage" onclick="hideFullImage()" alt="Full Image">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

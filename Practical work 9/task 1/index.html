@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button onclick="modalInstance.open()">Modal</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-header" onmousedown="modalInstance.dragStart(event)">
+            <h2>Модальне вікно</h2>
+        </div>
+        <div class="modal-content">
+            <label for="login">Логін:</label>
+            <input type="text" id="login" name="login"><br><br>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <button onclick="modalInstance.login()">Вхід</button>
+            <button onclick="modalInstance.close()">Закрити</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
